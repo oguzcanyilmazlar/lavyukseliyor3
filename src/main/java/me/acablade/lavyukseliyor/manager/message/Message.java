@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.manager.message;
+package me.acablade.lavyukseliyor.manager.message;
 
 
 import lombok.Data;

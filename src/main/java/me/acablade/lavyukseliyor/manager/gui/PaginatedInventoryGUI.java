@@ -1,7 +1,7 @@
-package me.acablade.templateplugin.manager.gui;
+package me.acablade.lavyukseliyor.manager.gui;
 
 import lombok.Setter;
-import me.acablade.templateplugin.objects.ItemBuilder;
+import me.acablade.lavyukseliyor.objects.ItemBuilder;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 

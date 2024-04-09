@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.manager.gui;
+package me.acablade.lavyukseliyor.manager.gui;
 
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;

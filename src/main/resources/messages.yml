@@ -6,3 +6,6 @@
 # RELOADED:
 # - "<green>successfully reloaded</green>"
 # - "{play:block.note_block.harp:1.0:1.781797}"
+
+CREATED: "<green>oyun olusturuldu</green>"
+JOIN: "<green><player> oyuna katildi!</green>"

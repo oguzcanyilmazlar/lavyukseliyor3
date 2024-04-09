@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.manager.gui;
+package me.acablade.lavyukseliyor.manager.gui;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

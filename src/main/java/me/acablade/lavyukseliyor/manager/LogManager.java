@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.manager;
+package me.acablade.lavyukseliyor.manager;
 
 import lombok.Builder;
 import lombok.Getter;

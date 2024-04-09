@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.objects;
+package me.acablade.lavyukseliyor.objects;
 
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;

@@ -1,7 +1,7 @@
-package me.acablade.templateplugin.manager.message;
+package me.acablade.lavyukseliyor.manager.message;
 
 import lombok.Data;
-import me.acablade.templateplugin.objects.ConfigurationFile;
+import me.acablade.lavyukseliyor.objects.ConfigurationFile;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import net.kyori.adventure.text.minimessage.tag.resolver.Placeholder;

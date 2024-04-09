@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.manager.gui;
+package me.acablade.lavyukseliyor.manager.gui;
 
 import lombok.Getter;
 import org.bukkit.entity.Player;

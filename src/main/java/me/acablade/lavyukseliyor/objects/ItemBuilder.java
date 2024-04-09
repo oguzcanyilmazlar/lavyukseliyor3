@@ -1,4 +1,4 @@
-package me.acablade.templateplugin.objects;
+package me.acablade.lavyukseliyor.objects;
 
 import com.google.gson.Gson;
 import org.apache.commons.lang3.Validate;

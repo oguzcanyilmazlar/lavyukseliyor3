@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.acablade.templateplugin</groupId>
+    <groupId>me.acablade.lavyukseliyor</groupId>
     <artifactId>${name}</artifactId>
     <version>1.0-${dest}</version>
     <packaging>jar</packaging>
@@ -12,9 +12,9 @@
     <name>${name}</name>
 
     <properties>
-        <name>templateplugin</name>
+        <name>lavyukseliyor</name>
         <dest>debug</dest>
-        <mainClass>TemplatePlugin</mainClass>
+        <mainClass>LavYukseliyorPlugin</mainClass>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -47,6 +47,26 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-toolchains-plugin</artifactId>
+                <version>1.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>toolchain</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <toolchains>
+                        <jdk>
+                            <version>17</version>
+                            <vendor>amazon</vendor>
+                        </jdk>
+                    </toolchains>
+                </configuration>
+            </plugin>
         </plugins>
         <resources>
             <resource>
@@ -59,6 +79,10 @@
 
     <repositories>
         <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
             <id>papermc-repo</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
@@ -66,10 +90,7 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
+
 
     </repositories>
 
@@ -91,6 +112,12 @@
             <groupId>com.github.Revxrsal.Lamp</groupId>
             <artifactId>bukkit</artifactId>
             <version>3.1.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.oguzcanyilmazlar</groupId>
+            <artifactId>bladeapi</artifactId>
+            <version>ab591b7056</version>
         </dependency>
 
         <dependency>
