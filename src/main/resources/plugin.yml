@@ -1,0 +1,4 @@
+name: '${name}'
+version: '${project.version}'
+main: '${project.groupId}.${mainClass}'
+api-version: '1.19'

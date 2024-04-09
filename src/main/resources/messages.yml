@@ -1,0 +1,8 @@
+# MESSAGES GO HERE
+# F.E.
+# RELOADED: "<green>successfully reloaded</green>"
+# you can use lists in here as well
+# for placeholderapi placeholders, use {} instead of %%
+# RELOADED:
+# - "<green>successfully reloaded</green>"
+# - "{play:block.note_block.harp:1.0:1.781797}"
